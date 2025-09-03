@@ -20,6 +20,7 @@ The following are some of the key benefits you'll gain by using this SCSS base s
 - 📦 **Scalable Architecture:** Supports growth from small to large projects without chaos.
 - 📚 **Best Practices:** Encourages clean, maintainable, and future-proof SCSS code.
 
+---
 
 ## How to Use This Repo
 
@@ -28,44 +29,31 @@ Clone or download this repository, and then place the folder into your project's
 
 ### Folder & File Structure Overview (Alphabetical Order)
 
-- **abstracts/**  
-  Stores global settings, functions, mixins, and helpers for the project.
-  - `_functions.scss`: Defines global SCSS functions for calculations and value manipulations.
-  - `_mixins.scss`: Contains reusable mixins to avoid code repetition and add logic to styles.
-  - `_placeholders.scss`: Stores placeholder selectors (`%`) for extending common style patterns.
-  - `_variables.scss`: Declares global variables (z-index, breakpoints) used throughout the project.
-  - `index.scss`: Centralizes and exposes all abstract utilities for easy import.
+---
 
-- **base/**  
-  Contains base styles like resets, typography, and HTML element rules.  
-  - `_global.scss`: Defines global styles (like styling body, a etc to match the design system) applied across the project, beyond the CSS reset.
-  - `_reset.scss`: Applies a modern CSS reset for consistent default styling and cross-browser normalization.
-  - `index.scss`: Aggregates all base styles for consistent project-wide defaults.
+## 📂 Folder Structure
 
-- **components/**  
-  Holds reusable UI components such as buttons, cards, and forms.  
-  - `index.scss`: Collects and exports all component styles for modular usage.
+```bash
+scss-base/
+│
+├── abstracts/      # Global settings, functions, mixins, variables, helpers
+├── base/           # Base styles, resets, typography
+├── components/     # UI components (buttons, cards, forms, etc.)
+├── layout/         # Layout-related styles (grid, header, footer)
+├── pages/          # Page-specific styles
+├── themes/         # Theme definitions (light, dark, custom)
+├── tokens/         # Design tokens (colors, spacing, typography scale)
+├── vendors/        # Vendor overrides
+│
+├── main.scss       # Primary entry point
+└── README.md       # Project documentation
+```
 
-- **layout/**  
-  Manages layout-related styles for structure and positioning.  
-  - `_default.scss`: Defines global, reusable layout styles for the whole project.  
-  - `_page.scss`: Adds layout styles unique to individual pages.
-  - `index.scss`: Aggregates and exposes all layout styles for easy import.
+---
 
-- **themes/**  
-  Contains theme-specific styles (e.g., dark/light mode, color schemes).  
-  - `index.scss`: Gathers and exposes all theme files for easy import.
+## ⭐ Support
 
-- **tokens/**  
-  Stores design tokens like colors, spacing, and typography scales.  
-  - `_colors.scss`: Has all the color tokens from the design system here.
-  - `index.scss`: Centralizes and exports all token files for consistent usage.
+If you like this project, don’t forget to **star the repo** ⭐
+It helps others discover the project!
 
-- **vendors/**  
-  Includes third-party or external SCSS/CSS libraries.  
-  - `index.scss`: Imports and manages all vendor styles in one place.
-
-
-
-
-
+Contributions, suggestions, and feedback are always welcome 🙌
