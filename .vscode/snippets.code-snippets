@@ -36,7 +36,22 @@
    // SCSS Related snippets.
    "REM function in scss": {
       "scope": "css,scss",
-      "prefix": "rem",
-      "body": "rem($1)",
+      "prefix": "rem, px, px-to, px-to-rem",
+      "body": "px-to-rem($1)",
+   },
+   "EM function in scss": {
+      "scope": "css,scss",
+      "prefix": "em, px, px-to, px-to-em",
+      "body": "px-to-em($1)",
+   },
+   "Z-INDEX function in scss": {
+      "scope": "css,scss",
+      "prefix": "z-index, z, z-index-map",
+      "body": "z-index($1)",
+   },
+   "GET-COLOR function in scss": {
+      "scope": "css,scss",
+      "prefix": "get-color, color, color-map-with-shades",
+      "body": "get-color($1)",
    },
 }

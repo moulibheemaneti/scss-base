@@ -17,33 +17,33 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 /* 2. Remove default margin and padding */
 * {
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
 }
 
 /* 3. Set core body defaults */
 html:focus-within {
-    scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
 html,
 body {
-    height: 100%;
+   height: 100%;
 }
 
 body {
-    min-height: 100vh;
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #fff;
-    color: #000;
+   min-height: 100vh;
+   text-rendering: optimizeSpeed;
+   line-height: 1.5;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   background-color: #fff;
+   color: #000;
 }
 
 /* 4. Remove list styles on ul, ol elements with a list role */
@@ -51,15 +51,15 @@ ul[role='list'],
 ol[role='list'],
 ul,
 ol {
-    list-style: none;
+   list-style: none;
 }
 
 /* 5. Anchor defaults */
 a {
-    text-decoration: none;
-    color: inherit;
-    background-color: transparent;
-    cursor: pointer;
+   text-decoration: none;
+   color: inherit;
+   background-color: transparent;
+   cursor: pointer;
 }
 
 /* 6. Remove default button and form element styles */
@@ -67,17 +67,17 @@ button,
 input,
 select,
 textarea {
-    font: inherit;
-    color: inherit;
-    background: none;
-    border: none;
-    outline: none;
-    padding: 0;
-    margin: 0;
-    box-shadow: none;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+   font: inherit;
+   color: inherit;
+   background: none;
+   border: none;
+   outline: none;
+   padding: 0;
+   margin: 0;
+   box-shadow: none;
+   appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
 }
 
 /* 7. Set images, videos, svg, canvas, and iframe to display block and restrict max width */
@@ -87,9 +87,9 @@ video,
 canvas,
 svg,
 iframe {
-    display: block;
-    max-width: 100%;
-    height: auto;
+   display: block;
+   max-width: 100%;
+   height: auto;
 }
 
 /* 8. Remove built-in form typography styles */
@@ -97,7 +97,7 @@ input,
 button,
 textarea,
 select {
-    font: inherit;
+   font: inherit;
 }
 
 /* 9. Inherit fonts for form elements */
@@ -105,41 +105,41 @@ button,
 input,
 select,
 textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
+   font-family: inherit;
+   font-size: inherit;
+   line-height: inherit;
 }
 
 /* 10. Remove animations and transitions for people who prefer reduced motion */
 @media (prefers-reduced-motion: reduce) {
-    html:focus-within {
-        scroll-behavior: auto;
-    }
+   html:focus-within {
+      scroll-behavior: auto;
+   }
 
-    *,
-    *::before,
-    *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-    }
+   *,
+   *::before,
+   *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+   }
 }
 
 /* 11. Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
 
-    *,
-    *::before,
-    *::after {
-        animation: none !important;
-        transition: none !important;
-    }
+   *,
+   *::before,
+   *::after {
+      animation: none !important;
+      transition: none !important;
+   }
 }
 
 /* 12. Remove all outlines except for keyboard focus for accessibility */
 :focus:not(:focus-visible) {
-    outline: none;
+   outline: none;
 }
 
 /* 13. Set a sensible default for headings */
@@ -149,47 +149,47 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: inherit;
-    font-weight: inherit;
+   font-size: inherit;
+   font-weight: inherit;
 }
 
 /* 14. Remove quotes from blockquotes and q */
 blockquote,
 q {
-    quotes: none;
+   quotes: none;
 }
 
 blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-    content: '';
-    content: none;
+   content: '';
+   content: none;
 }
 
 /* 15. Table resets */
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+   border-collapse: collapse;
+   border-spacing: 0;
 }
 
 /* 16. Remove border on images inside links in IE 10 */
 a img {
-    border: none;
+   border: none;
 }
 
 /* 17. Set default cursor for disabled elements */
 [disabled] {
-    cursor: not-allowed;
-    pointer-events: none;
-    opacity: 0.6;
+   cursor: not-allowed;
+   pointer-events: none;
+   opacity: 0.6;
 }
 
 /* 18. Hide the clear button in IE */
 input[type='search']::-ms-clear {
-    display: none;
-    width: 0;
-    height: 0;
+   display: none;
+   width: 0;
+   height: 0;
 }
 
 /* 19. Remove the inner padding and cancel buttons in Chrome on OS X */
@@ -197,26 +197,26 @@ input[type='search']::-webkit-search-decoration,
 input[type='search']::-webkit-search-cancel-button,
 input[type='search']::-webkit-search-results-button,
 input[type='search']::-webkit-search-results-decoration {
-    display: none;
+   display: none;
 }
 
 /* 20. Remove spinner from number inputs */
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+   -webkit-appearance: none;
+   margin: 0;
 }
 
 input[type='number'] {
-    -moz-appearance: textfield;
+   -moz-appearance: textfield;
 }
 
 /* 21. Restrict textarea resizing to vertical only */
 textarea {
-    resize: vertical;
+   resize: vertical;
 }
 
 /* 22. Make sure hidden elements are not displayed */
 [hidden] {
-    display: none !important;
+   display: none !important;
 }
